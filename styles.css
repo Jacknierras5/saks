@@ -378,10 +378,18 @@ body {
 
 .home {
     width: 100%;
-    height: 100vh;
+    height: 95vh;
     background-image: url(https://hauteliving.com/hautebeauty/wp-content/uploads/2017/04/o-HEALTHY-HAIR-facebook.jpg);
     background-position: center top;
     background-size: cover;
+}
+
+.logologo {
+    position: absolute;
+    top: 400px;
+    left: 715px;
+    background-color: antiquewhite;
+    z-index: 99;
 }
 
 
