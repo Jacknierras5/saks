@@ -78,25 +78,6 @@ body {
 }
 
 
-/* Home section */
-
-.home {
-    width: 100%;
-    height: 100vh;
-    background-image: url(https://images.unsplash.com/photo-1498550744921-75f79806b8a7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b0f6908fa5e81286213c7211276e6b3d&auto=format&fit=crop&w=1500&q=80);
-    background-position: center top;
-    background-size: cover;
-}
-
-.priser {
-    width: 100%;
-    height: 100vh;
-    background-image: url(https://images.squarespace-cdn.com/content/v1/5b229995e2ccd15b255c90fc/1529788125828-RCP9XHJFS6HE6JQ381IY/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/Hair+shampoo+at+Fringe+Salon.+Balayage+hair%2C+Ombre+hair%2C+lived-in+hairstyles+for+ready-to-wear+hair+that+reflects+your+story+and+your+spirit.+Blowouts+and+updos+NYC.?format=1500w);
-    background-position: center top;
-    background-size: cover;
-}
-
-
 .navTrigger {
     display: none;
 }
@@ -390,4 +371,37 @@ body {
     .myP {
         padding: 2%;
     }
+}
+
+
+/* Forside */
+
+.home {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://hauteliving.com/hautebeauty/wp-content/uploads/2017/04/o-HEALTHY-HAIR-facebook.jpg);
+    background-position: center top;
+    background-size: cover;
+}
+
+
+
+/* Priser */
+
+.priser {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5b229995e2ccd15b255c90fc/1529788125828-RCP9XHJFS6HE6JQ381IY/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/Hair+shampoo+at+Fringe+Salon.+Balayage+hair%2C+Ombre+hair%2C+lived-in+hairstyles+for+ready-to-wear+hair+that+reflects+your+story+and+your+spirit.+Blowouts+and+updos+NYC.?format=1500w);
+    background-position: center top;
+    background-size: cover;
+}
+
+/* Produkter */
+
+.produkter {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5b229995e2ccd15b255c90fc/1529264405097-35L3M57142MH3O8E057C/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/FRINGE311.jpg?format=1500w);
+    background-position: center top;
+    background-size: cover;
 }
