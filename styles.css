@@ -386,9 +386,9 @@ body {
 
 .logologo {
     position: absolute;
+    color: white;
     top: 400px;
     left: 715px;
-    background-color: antiquewhite;
     z-index: 99;
 }
 
