@@ -9,6 +9,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <link rel="stylesheet" href="styles.css">
+
+
+    <!-- Data AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 </head>
 
 <!-- Nav bar -->
@@ -52,32 +59,40 @@
 
         </section>
 
+
         <section class="front grey">
             <div class="row">
                 <div class="col-sm-12">
-                    <h1 class="myh1">SAKS CPH - Din frisør på Kongens nytorv</h1>
+                    <h1 class="front teksth1">SAKS CPH - Din frisør på Kongens Nytorv</h1>
                 </div>
             </div>
         </section>
 
-        <section class="front grey">
+        <section class="front grey space">
             <div class="row">
                 <div class="col-sm-6">
-                    <p class="myP">
-                        Saks Cph er en kreativ og uformel salon med et højt fagligt niveau. Her er god tid til dig og dit hår og kun én kunde ad gangen.
-                        <br>
 
-                        Der er fokus på dig. Alle behandlinger starter med en afklarende snak. Jeg vil hellere give dig et naturligt og autentisk look, som harmonerer med din personlige stil, dit hår og dine ønsker end slavisk at følge de nyeste trends.
-                        <br>
+                    <div data-aos="fade-right">
+                        <p class="myP">
+                            Saks Cph er en kreativ og uformel salon med et højt fagligt niveau. Her er god tid til dig og dit hår og kun én kunde ad gangen.
+                            <br>
 
-                        Hvis dit hår er slidt og plejetrængende, så bestil tid til en intensiv hårkur sammen med din klipning eller farvebehandling. Jeg håber, at du vil følge op på hårplejen derhjemme med gode produkter. Jeg viser dig gerne, hvad jeg vil anbefale til dit hår. Stimuler og rens dit hår og din hovedbund dagligt ved at rede dit hår med en kvalitetsbørste.
+                            Der er fokus på dig. Alle behandlinger starter med en afklarende snak. Jeg vil hellere give dig et naturligt og autentisk look, som harmonerer med din personlige stil, dit hår og dine ønsker end slavisk at følge de nyeste trends.
+                            <br>
+
+                            Hvis dit hår er slidt og plejetrængende, så bestil tid til en intensiv hårkur sammen med din klipning eller farvebehandling. Jeg håber, at du vil følge op på hårplejen derhjemme med gode produkter. Jeg viser dig gerne, hvad jeg vil anbefale til dit hår. Stimuler og rens dit hår og din hovedbund dagligt ved at rede dit hår med en kvalitetsbørste.
 
 
-                    </p>
+                        </p>
+                    </div>
                 </div>
+
                 <div class="col-sm-6">
-                    <p class="myP">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi labore officiis minus laboriosam
+                    <div data-aos="fade-left">
+                        <p class="myP">
+                            img
+                        </p>
+                    </div>
                 </div>
             </div>
 
@@ -85,9 +100,7 @@
         <h1 class="myh1">
             Lorem, ipsum
         </h1>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi labore officiis minus laboriosam
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi labore officiis minus laboriosam Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi labore officiis minus laboriosam
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi labore officiis minus laboriosam Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi labore officiis minus laboriosam
+
 
 
     </div>
@@ -100,12 +113,15 @@
 <!-- Function used to shrink nav bar removing paddings and adding black background -->
 <script>
     $(window).scroll(function() {
-        if ($(document).scrollTop() > 50) {
-            $('.nav').addClass('affix');
-            console.log("OK");
-        } else {
-            $('.nav').removeClass('affix');
-        }
-    });
-
+                if ($(document).scrollTop() > 50) {
+                    $('.nav').addClass('affix');
+                    console.log("OK");
+                } else {
+                    $('.nav').removeClass('affix');
+                }
 </script>
+
+<script>
+    AOS.init();
+</script></html>
+

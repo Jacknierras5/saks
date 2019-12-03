@@ -25,11 +25,7 @@ body {
 }
 
 
-.myh1 {
-    font-family: 'Ibarra Real Nova', serif;
-    font-size: 5em;
 
-}
 
 /*-- Inspiration taken from abdo steif -->
 /* --> https://codepen.io/abdosteif/pen/bRoyMb?editors=1100*/
@@ -410,6 +406,24 @@ body {
     top: 400px;
     left: 715px;
     z-index: 50;
+}
+
+.space {
+    padding-left: 10em;
+    padding-right: 10em;
+
+    padding-top: 2em;
+    padding-bottom: 5em;
+
+
+}
+
+.teksth1 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 5em;
+    text-align: center;
+    padding-top: 1em;
+
 }
 
 .grey {
