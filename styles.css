@@ -18,6 +18,19 @@ body {
     font-size: 10px;
 }
 
+
+.myP {
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 2rem;
+}
+
+
+.myh1 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 5em;
+
+}
+
 /*-- Inspiration taken from abdo steif -->
 /* --> https://codepen.io/abdosteif/pen/bRoyMb?editors=1100*/
 
@@ -395,7 +408,7 @@ body {
     color: white;
     top: 400px;
     left: 715px;
-    z-index: 99;
+    z-index: 50;
 }
 
 
