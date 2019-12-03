@@ -412,7 +412,9 @@ body {
     z-index: 50;
 }
 
-.grey{background-color: #E3E3E3;}
+.grey {
+    background-color: #E3E3E3;
+}
 
 
 
@@ -432,6 +434,14 @@ body {
     width: 100%;
     height: 100vh;
     background-image: url(https://images.squarespace-cdn.com/content/v1/5b229995e2ccd15b255c90fc/1529264405097-35L3M57142MH3O8E057C/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/FRINGE311.jpg?format=1500w);
+    background-position: center top;
+    background-size: cover;
+}
+
+.om {
+    width: 100%;
+    height: 100vh;
+    background-image: url("back.jpg");
     background-position: center top;
     background-size: cover;
 }
