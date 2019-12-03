@@ -412,7 +412,7 @@ body {
     padding-left: 10em;
     padding-right: 10em;
 
-    padding-top: 2em;
+    padding-top: 5em;
     padding-bottom: 5em;
 
 
@@ -424,6 +424,10 @@ body {
     text-align: center;
     padding-top: 1em;
 
+}
+
+.kvinde {
+    text-align: center;
 }
 
 .grey {
