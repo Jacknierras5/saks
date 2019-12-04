@@ -426,12 +426,26 @@ body {
 
 }
 
+.teksth2 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 3em;
+    text-align: left;
+
+
+
+}
+
 .kvinde {
     text-align: center;
 }
 
 .grey {
     background-color: #E3E3E3;
+}
+
+.elsebeth {
+    height: auto;
+    width: 50%;
 }
 
 
