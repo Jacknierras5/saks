@@ -462,7 +462,7 @@ body {
 
     background-color: darkgrey;
 
-    padding-top: 10em;
+    padding-top: 13em;
 
     padding-right: 10em;
     padding-left: 10em;
@@ -471,9 +471,28 @@ body {
 
 }
 
+.prisklasse {
+    background-color: darkgrey;
+
+    padding-top: 5em;
+    padding-bottom: 5em;
+
+    padding-right: 10em;
+    padding-left: 10em;
+}
 
 
-.prisliste {
+.prisliste1 {
+    border-style: solid;
+    border-color: #FFCA76;
+
+    background-color: rgba(0, 0, 0, 0.57);
+
+    z-index: 10;
+    margin-right: auto;
+}
+
+.prisliste2 {
     border-style: solid;
     border-color: #FFCA76;
 
@@ -482,12 +501,21 @@ body {
     z-index: 10;
 }
 
+/* paragraph - priser */
 .myPriser {
 
     font-family: 'Ibarra Real Nova', serif;
     font-size: 15px;
 
     color: white;
+}
+
+/* H2 - priser*/
+.teksth2booking {
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 3em;
+    text-align: left;
+    color: black;
 }
 
 
@@ -507,4 +535,91 @@ body {
     background-image: url("back.jpg");
     background-position: center top;
     background-size: cover;
+}
+
+
+
+/* Footer */
+.footer {
+    padding: 60px 0;
+    width: 100%;
+    background: #3B008D;
+    color: #fff;
+
+}
+
+.footerspace {
+    padding-left: 10em;
+    padding-right: 10em;
+
+    padding-bottom: 5em;
+
+}
+
+.footer-title {
+    position: relative;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #4e4e4e;
+}
+
+.footer-title:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    width: 30px;
+    height: 4px;
+    background: #ff304d;
+}
+
+.footer-links a {
+    padding: 10px 0;
+    border-bottom: 1px solid #404040;
+    color: #fff;
+    display: block;
+    transition: color 0.5s ease-in-out;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #ff304d;
+}
+
+.footer-social-links li {
+    display: inline-block;
+}
+
+.footer-social-links a {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    float: left;
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #404040;
+    border-radius: 50px;
+    text-align: center;
+    color: #fff;
+    line-height: 1;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background 0.3s ease-in-out;
+    background: #3B008D;
+}
+
+.footer-social-links a:hover {
+    background: #ff304d;
+}
+
+/* g. Footer bottom section */
+.footer-bottom {
+    width: 100%;
+    padding: 25px 0;
+    text-align: center;
+    color: #fff;
+    background: rgb(9, 95, 234);
 }
