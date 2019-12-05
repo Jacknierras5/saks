@@ -387,7 +387,7 @@ body {
 }
 
 
-/* Forside */
+/* ---- Forside ---- */
 
 .home {
     width: 100%;
@@ -441,7 +441,7 @@ body {
 }
 
 .grey {
-    background-color: #E3E3E3;
+    background-color: #a5a5a5;
 }
 
 .elsebeth {
@@ -456,11 +456,11 @@ body {
 
 
 
-/* Priser */
+/* ---- Priser ---- */
 
 .priser {
 
-    background-color: darkgrey;
+    background-color: #a5a5a5;
 
     padding-top: 13em;
 
@@ -472,7 +472,7 @@ body {
 }
 
 .prisklasse {
-    background-color: darkgrey;
+    background-color: #a5a5a5;
 
     padding-top: 5em;
     padding-bottom: 5em;
@@ -481,7 +481,7 @@ body {
     padding-left: 10em;
 }
 
-
+/* priskasse */
 .prisliste1 {
     border-style: solid;
     border-color: #FFCA76;
@@ -489,6 +489,7 @@ body {
     background-color: rgba(0, 0, 0, 0.57);
 
     z-index: 10;
+    margin-left: 1em;
     margin-right: auto;
 }
 
@@ -519,7 +520,7 @@ body {
 }
 
 
-/* Produkter */
+/* ---- Produkter ---- */
 
 .produkter {
     width: 100%;
@@ -529,12 +530,41 @@ body {
     background-size: cover;
 }
 
+
+/* ---- Om ---- */
 .om {
-    width: 100%;
-    height: 100vh;
-    background-image: url("back.jpg");
-    background-position: center top;
-    background-size: cover;
+    background-color: #a5a5a5;
+
+    padding-top: 13em;
+
+    padding-right: 10em;
+    padding-left: 10em;
+
+}
+
+.ombottom {
+    padding-bottom: 10em;
+}
+
+.h3citat {
+
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 2em;
+    font-style: italic;
+    text-align: left;
+    color: black;
+
+    padding-bottom: 2em;
+
+
+}
+
+
+
+.omslider {
+
+    padding-left: 10em;
+    padding-right: 10em;
 }
 
 
@@ -573,20 +603,19 @@ body {
     bottom: 0;
     width: 30px;
     height: 4px;
-    background: #ff304d;
+    background: #FFCA76;
 }
 
 .footer-links a {
-    padding: 10px 0;
-    border-bottom: 1px solid #404040;
+    padding: 5px 0;
+
     color: #fff;
     display: block;
-    transition: color 0.5s ease-in-out;
     text-decoration: none;
 }
 
 .footer-links a:hover {
-    color: #ff304d;
+    color: #FFCA76;
 }
 
 .footer-social-links li {
@@ -604,11 +633,6 @@ body {
     border-radius: 50px;
     text-align: center;
     color: #fff;
-    line-height: 1;
-    -webkit-transition: background 0.3s ease-in-out;
-    -moz-transition: background 0.3s ease-in-out;
-    transition: background 0.3s ease-in-out;
-    background: #3B008D;
 }
 
 .footer-social-links a:hover {
