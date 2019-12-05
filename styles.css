@@ -55,7 +55,7 @@ body {
 }
 
 .nav div.logo a:hover {
-    color: #00E676;
+    color: #FFCA76;
 }
 
 .nav div.main_list {
@@ -87,7 +87,7 @@ body {
 }
 
 .nav div.main_list ul li a:hover {
-    color: #00E676;
+    color: #FFCA76;
 }
 
 
@@ -430,6 +430,7 @@ body {
     font-family: 'Ibarra Real Nova', serif;
     font-size: 3em;
     text-align: left;
+    color: white;
 
 
 
@@ -448,17 +449,47 @@ body {
     width: 50%;
 }
 
+.hair {
+    padding-left: 10em;
+    padding-right: 10em;
+}
+
 
 
 /* Priser */
 
 .priser {
-    width: 100%;
-    height: 100vh;
-    background-image: url(https://images.squarespace-cdn.com/content/v1/5b229995e2ccd15b255c90fc/1529788125828-RCP9XHJFS6HE6JQ381IY/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/Hair+shampoo+at+Fringe+Salon.+Balayage+hair%2C+Ombre+hair%2C+lived-in+hairstyles+for+ready-to-wear+hair+that+reflects+your+story+and+your+spirit.+Blowouts+and+updos+NYC.?format=1500w);
-    background-position: center top;
-    background-size: cover;
+
+    background-color: darkgrey;
+
+    padding-top: 10em;
+
+    padding-right: 10em;
+    padding-left: 10em;
+
+
+
 }
+
+
+
+.prisliste {
+    border-style: solid;
+    border-color: #FFCA76;
+
+    background-color: rgba(0, 0, 0, 0.57);
+
+    z-index: 10;
+}
+
+.myPriser {
+
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 15px;
+
+    color: white;
+}
+
 
 /* Produkter */
 
