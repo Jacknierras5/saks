@@ -426,15 +426,7 @@ body {
 
 }
 
-.teksth2 {
-    font-family: 'Ibarra Real Nova', serif;
-    font-size: 3em;
-    text-align: left;
-    color: white;
 
-
-
-}
 
 .kvinde {
     text-align: center;
@@ -458,8 +450,9 @@ body {
 
 /* ---- Priser ---- */
 
-.priser {
 
+/* - Splash billed & Tekst - */
+.priser {
     width: 100%;
     height: 95vh;
     background-image: url(priser-baggrund.jpg);
@@ -468,13 +461,12 @@ body {
 
 }
 
-
 .priser-tekst {
+
     padding-top: 13em;
 
     padding-right: 10em;
     padding-left: 10em;
-
 
 }
 
@@ -484,42 +476,115 @@ body {
     color: #fff;
 }
 
+/* - En god klip & Kur - */
 
-
-
-
-.pris-kasser {
-    padding-top: 5em;
-    padding-bottom: 5em;
-
-    padding-right: 9em;
-    padding-left: 9em;
-    background-color: #a5a5a5;
-
-}
-
-
-/* priskasse */
-.prisliste {
-    border-style: solid;
-    border-color: #FFCA76;
-
-    background-color: rgba(0, 0, 0, 0.57);
-
+.god-klip {
     margin-right: auto;
 
 }
 
-.prisliste2 {
-    border-style: solid;
-    border-color: #FFCA76;
+.klip-kur {
+    padding-top: 5em;
+    padding-bottom: 2.5em;
 
-    background-color: rgba(0, 0, 0, 0.57);
+    padding-right: 10em;
+    padding-left: 10em;
+    background-color: #a5a5a5;
 
     margin-left: auto;
+}
 
+
+.boks-kur {
+    background-color: #000000;
+}
+
+.teksth2 {}
+
+.h4-klip-sort {
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 20px;
+    color: #000000;
+
+    padding-bottom: 1em;
+}
+
+.myPriser-sort {
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 15px;
+    color: #000000;
 
 }
+
+.h4-klip {
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 20px;
+    color: #fff;
+    padding-bottom: 0.5em;
+
+}
+
+/* --- priskasse --- */
+
+/*  ---> section */
+.pris-kasser {
+    padding-top: 2.5em;
+    padding-bottom: 5em;
+
+    padding-right: 10em;
+    padding-left: 10em;
+    background-color: #a5a5a5;
+
+}
+
+.prisliste {
+    background-color: rgba(0, 0, 0, 0.57);
+
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.h2-pris-oversigt {
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 3em;
+    text-align: left;
+    color: white;
+
+    padding-bottom: 0.5em;
+
+    text-align: center;
+
+}
+
+.pris-kategorier {
+
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 3em;
+    text-align: left;
+    color: white;
+
+    padding-bottom: 0.5em;
+
+    text-align: center;
+
+}
+
+
+
+.h5-overskrift {
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 2em;
+    text-align: left;
+    color: #fff;
+
+}
+
+
+
+
+
+
 
 /* paragraph - priser */
 .myPriser {
@@ -552,6 +617,22 @@ body {
 
 }
 
+
+.tyk-tynd {
+
+    /*
+    padding-top: 13em;
+
+    padding-right: 10em;
+    padding-left: 10em;
+
+    */
+
+
+
+
+    background-color: rgba(0, 0, 0, 0.55);
+}
 
 /* ---- Om ---- */
 .om {
