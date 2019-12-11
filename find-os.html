@@ -35,85 +35,221 @@
 <body>
 
     <div id="wrapper">
-        <section class="">
+
+        <section class="find-os-section">
+
             <div class="row">
-                <div class="col-sm-6"></div>
-                <div class="col-sm-6"></div>
+                <div class="col-sm-6 find-left">
+
+                    <h4 class="find-h4">Adresse</h4>
+                    <p class="find-p">Saks cph </p>
+                    <p class="find-p">Borgergade 130 <br>
+                        1300 Kbh. K</p>
+
+                    <h4 class="find-h4">Åbeningstider</h4>
+                    <p class="find-p">Mandag - Torsdag: 10-18</p>
+
+                    <p class="find-p">Fredag: 10-18</p>
+
+                    <p class="find-p">Lørdag - søndag: Lukket</p>
+
+
+                    <h4 class="find-h4">Kontakt</h4>
+                    <p class="find-p">Tlf: 20 22 40 21</p>
+
+                    <p class="find-p">Mail: kontakt@sakscph.dk</p>
+
+                    <p class="find-p">CVR: 31302390</p>
+
+
+                </div>
+
+                <div class="col-sm-5 find-right">
+
+                    <!--Section heading-->
+                    <h4 class="find-h4">Kontakt Saks</h4>
+
+
+                    <!-- Form-->
+                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                        <!--Navn-->
+                        <div class="form">
+                            <label for="name" class="">Navn *</label>
+                            <input type="text" id="name" name="name" cols="100%" rows="1" class="form-control">
+                        </div>
+
+
+                        <!--Nummer-->
+                        <div class="form">
+                            <label for="">Nummer *</label>
+                            <input type="text" id="number" name="number" cols="100%" rows="1" class="form-control">
+                        </div>
+
+
+                        <!--Email-->
+                        <div class="form">
+                            <label for="email" class="">Email *</label>
+                            <input type="text" id="email" name="email" cols="100%" rows="" class="form-control">
+                        </div>
+
+                        <!--Emne-->
+                        <div class="form">
+                            <label for="subject" class="">Emne * </label>
+                            <input type="text" id="subject" name="subject" class="form-control">
+                        </div>
+
+                        <!--Besked-->
+                        <div class="form">
+                            <label for="message">Besked *</label>
+                            <textarea type="text" id="message" name="message" cols="100%" rows="7" class="form-control"></textarea>
+
+                        </div>
+
+                    </form>
+
+                    <div class="text-center text-md-left">
+                        <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                    </div>
+
+                </div>
+
+
+
+
+                <div class="col-sm-6 gebyr">
+                    <p class="find-p">
+                        Ved tidsbestilling send sms på 2022 4021 eller mail til kontakt@sakscph.dk.
+                        (Dette er bedst, da jeg ikke tager telefonen, når jeg arbejder for ikke at afbryde behandlingerne).
+                    </p>
+
+                    <p class="find-p">
+                        Husk at melde afbud i god tid, senest dagen før. I modsat fald opkræves et gebyr på 300,- No show koster ligeledes 300,-
+                    </p>
+
+
+                </div>
+
+
+
+
             </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+        <section>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.1495421951595!2d12.585438815801242!3d55.68638780457997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652531f2e4388b1%3A0x84361bab750b79cd!2sSaks%20cph!5e0!3m2!1sda!2sdk!4v1575982980329!5m2!1sda!2sdk" width="100%" height="500" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 
 
         </section>
+
+
+
+
+
+
+
+
+
+
+        <footer class="footer">
+
+            <section class="footerspace">
+
+                <div class="row">
+                    <div class="col-md-4 m-b-30">
+                        <div class="footer-title m-t-5 m-b-20 p-b-8">
+                            Saks
+                        </div>
+                        <p class="white-text">
+                            Saks cph
+                        </p>
+
+                        <p class="white-text">
+                            Borgergade 130
+                            1300 Kbh. K
+                        </p>
+                        <p class="white-text">
+                            20 22 40 21
+                        </p>
+                        <p class="white-text">
+                            kontakt@sakscph.dk
+                        </p>
+                    </div>
+                    <div class="col-md-4 m-b-30">
+                        <div class="footer-title m-t-5 m-b-20 p-b-8">
+                            Sider
+                        </div>
+                        <div class="footer-links">
+                            <a href="priser.html">
+                                Priser
+                            </a>
+                            <a href="produkter.html">
+                                Produkter </a>
+                            <a href="om.html">
+                                Om
+                            </a>
+                            <a href="find-os.html">
+                                Find Os
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 m-b-30">
+                        <div class="footer-title m-t-5 m-b-20 p-b-8">
+                            Følg med
+                        </div>
+
+                        <div class="footer-social-links m-t-30">
+
+                            <a href="https://www.facebook.com/sakscph.dk/">
+                                <img src="facebook-some.png" alt="">
+
+                            </a>
+                            <a href="https://www.instagram.com/sakscph/">
+                                <img src="instagram-some.png" alt="">
+
+                            </a>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+
+        </footer>
+
     </div>
-
-
-
-    <footer class="footer">
-
-        <section class="footerspace">
-
-            <div class="row">
-                <div class="col-md-4 m-b-30">
-                    <div class="footer-title m-t-5 m-b-20 p-b-8">
-                        Saks
-                    </div>
-                    <p class="white-text">
-                        Saks cph
-                    </p>
-
-                    <p class="white-text">
-                        Borgergade 130
-                        1300 Kbh. K
-                    </p>
-                    <p class="white-text">
-                        20 22 40 21
-                    </p>
-                    <p class="white-text">
-                        kontakt@sakscph.dk
-                    </p>
-                </div>
-                <div class="col-md-4 m-b-30">
-                    <div class="footer-title m-t-5 m-b-20 p-b-8">
-                        Sider
-                    </div>
-                    <div class="footer-links">
-                        <a href="priser.html">
-                            Priser
-                        </a>
-                        <a href="produkter.html">
-                            Produkter </a>
-                        <a href="om.html">
-                            Om
-                        </a>
-                        <a href="find-os.html">
-                            Find Os
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4 m-b-30">
-                    <div class="footer-title m-t-5 m-b-20 p-b-8">
-                        Følg med
-                    </div>
-
-                    <div class="footer-social-links m-t-30">
-
-                        <a href="https://www.facebook.com/sakscph.dk/">
-                            <img src="facebook-some.png" alt="">
-
-                        </a>
-                        <a href="https://www.instagram.com/sakscph/">
-                            <img src="instagram-some.png" alt="">
-
-                        </a>
-
-
-                    </div>
-                </div>
-            </div>
-
-        </section>
-
-
-    </footer>
 </body>
 
-</html>
+
+
+
+
+
+
+<!-- Jquery needed -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="scripts.js"></script>
+
+<!-- Function used to shrink nav bar removing paddings and adding black background -->
+<script>
+    $(window).scroll(function() {
+        if ($(document).scrollTop() > 50) {
+            $('.nav').addClass('affix');
+            console.log("OK");
+        } else {
+            $('.nav').removeClass('affix');
+        }
+    });
+</script></html>

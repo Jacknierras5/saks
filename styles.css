@@ -466,8 +466,7 @@ body {
     padding-top: 13em;
 
     padding-right: 10em;
-    padding-left: 10em;
-
+    padding-left: 12em;
 }
 
 .myP-tekst {
@@ -566,8 +565,9 @@ body {
 
     padding-bottom: 0.5em;
 
-    text-align: center;
+    text-align: left;
 
+    text-decoration: underline;
 }
 
 
@@ -579,12 +579,6 @@ body {
     color: #fff;
 
 }
-
-
-
-
-
-
 
 /* paragraph - priser */
 .myPriser {
@@ -606,7 +600,7 @@ body {
 
 /* ---- Produkter ---- */
 
-.produkter {
+.start-produkter {
 
     background-color: #a5a5a5;
 
@@ -620,19 +614,52 @@ body {
 
 .tyk-tynd {
 
-    /*
-    padding-top: 13em;
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+
+.produkter {
+
+    padding-top: 5em;
 
     padding-right: 10em;
     padding-left: 10em;
 
-    */
-
-
-
-
-    background-color: rgba(0, 0, 0, 0.55);
 }
+
+
+.myP-produkter {
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 15px;
+    color: #000000;
+
+}
+
+.produkt-billeder {
+    height: auto;
+    width: 100%;
+}
+
+
+
+.modal-body {
+    justify-content: center;
+}
+
+.window-produkt-billeder {
+padding-left: 15em;
+    padding-right: 15em;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* ---- Om ---- */
 .om {
@@ -682,6 +709,60 @@ body {
     padding-left: 10em;
     padding-right: 10em;
 }
+
+
+/* ---- Find os ---- */
+.find-os-section {
+    background-color: #a5a5a5;
+
+    padding-top: 13em;
+
+    padding-right: 10em;
+    padding-left: 10em;
+
+
+}
+
+.find-lift {
+    padding-bottom: 10em;
+    margin-right: auto;
+}
+
+.find-h4 {
+
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 20px;
+    color: #000000;
+}
+
+.find-p {
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 15px;
+    color: #000000;
+
+}
+
+
+
+
+
+
+
+
+
+.form {
+    padding-bottom: 1.5em;
+}
+
+
+
+.gebyr {
+    padding-top: 3em;
+
+
+
+}
+
 
 
 
