@@ -22,6 +22,7 @@ body {
 .myP {
     font-family: 'Ibarra Real Nova', serif;
     font-size: 15px;
+    color: #000000;
 }
 
 
@@ -438,7 +439,8 @@ body {
 
 .elsebeth {
     height: auto;
-    width: 50%;
+    width: 40%;
+
 }
 
 .hair {
@@ -495,7 +497,9 @@ body {
 
 
 .boks-kur {
-    background-color: #000000;
+    border-left: solid;
+    text-decoration-color: black;
+
 }
 
 .teksth2 {}
@@ -611,13 +615,22 @@ body {
 
 }
 
-
+/* sort-boks */
 .tyk-tynd {
 
-    background-color: rgba(0, 0, 0, 0.55);
+    border-left: solid;
+
+    margin-bottom: 5em;
 }
 
+.myP-Tyk {
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 15px;
+    color: #000000;
 
+}
+
+/* section */
 .produkter {
 
     padding-top: 5em;
@@ -627,7 +640,7 @@ body {
 
 }
 
-
+/* paragraph - produkter */
 .myP-produkter {
     font-family: 'Ibarra Real Nova', serif;
     font-size: 15px;
@@ -635,22 +648,76 @@ body {
 
 }
 
+
+
+
+.knap-color {
+    background-color: #dbdbdb;
+}
+
+.knap-color:hover {
+    background-color: #b7b7b7;
+}
+
+
+/* H3 - produkter */
+.h3-produkter {
+    text-align: center;
+}
+
+/* H4 - produkter */
+.h4-produkter-pris {
+    text-align: center;
+}
+
+/* H3 - produkter */
+.h3-window-txt {
+    text-align: ;
+}
+
+
+
+/* Katalog - produkter */
+.salg {
+    padding-bottom: 5em;
+
+}
+
+
 .produkt-billeder {
     height: auto;
     width: 100%;
 }
 
 
-
-.modal-body {
-    justify-content: center;
-}
-
 .window-produkt-billeder {
-padding-left: 15em;
-    padding-right: 15em;
+    border-bottom-style: solid;
+
 }
 
+.window-produkt-billeder {}
+
+.p-window-paragraph {
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 12px;
+    color: #000000;
+
+}
+
+.kurv {
+    color: #fff;
+    background-color: #000000;
+
+}
+
+.kurv:hover {
+    background-color: #a5a5a5;
+}
+
+.underline {
+    border-top: solid;
+
+}
 
 
 
@@ -698,17 +765,74 @@ padding-left: 15em;
     color: black;
 
     padding-bottom: 2em;
-
-
 }
 
 
 
-.omslider {
+.gallery {
 
     padding-left: 10em;
     padding-right: 10em;
 }
+
+
+.gallery {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33%;
+    -moz-column-width: 33%;
+    column-width: 33%;
+}
+
+.gallery .pics {
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease;
+}
+
+.gallery .animation {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+@media (max-width: 450px) {
+    .gallery {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+        -webkit-column-width: 100%;
+        -moz-column-width: 100%;
+        column-width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .btn.filter {
+        padding-left: 1.1rem;
+        padding-right: 1.1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* ---- Find os ---- */
