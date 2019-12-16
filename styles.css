@@ -111,10 +111,7 @@ body {
         margin: 0;
     }
 
-    .space {
-        padding-right: 0;
-        padding-left: 0;
-    }
+
 }
 
 @media screen and (max-width:768px) {
@@ -392,6 +389,7 @@ body {
     .myP {
         padding: 2%;
     }
+
 }
 
 /* ---- ------- ---- */
@@ -413,8 +411,8 @@ body {
 
     position: absolute;
     color: white;
-    top: 400px;
-    left: 715px;
+    top: 350px;
+    left: 800px;
     z-index: 50;
 }
 
@@ -434,6 +432,57 @@ body {
     font-size: 5em;
     text-align: center;
     padding-top: 1em;
+}
+
+.h2-splash-citat {
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 3em;
+
+    text-align: center;
+
+
+
+
+}
+
+
+.splash-logo {
+    text-align: center;
+}
+
+.splash-logo-size {
+    height: auto;
+    width: 45%;
+    margin-bottom: em;
+}
+
+.splash-knapper {
+    margin-bottom: 1em;
+}
+
+.myP-splash-book {
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 25px;
+    color: #fff;
+
+}
+
+.splash-button :hover {
+    text-decoration: none;
+    text-decoration-line: none;
+    color: #FFCA76;
+}
+
+.splash-booking {
+    border-style: solid;
+    border-color: #fff;
+
+    width: 200px;
+    height: 40px;
+
+    text-align: center;
+
+    margin-top: 2em;
 }
 
 
@@ -518,11 +567,80 @@ input[placeholder=Email] {
 }
 
 
-@media screen and (min-width: 768px) {
-    .space {}
+@media only screen and (max-width: 600px) {
+    .space {
 
+        padding-right: 2em;
+        padding-left: 2em;
+    }
+
+    .teksth2 {
+        padding-left: 10px;
+    }
+
+
+    input[placeholder=Navn] {
+        text-align: left;
+    }
+
+    input[placeholder=Efternavn] {
+        text-align: left;
+    }
+
+    input[placeholder=Email] {
+        text-align: left;
+    }
+
+
+    .tilmeld-knap-hvid {
+        width: 300px;
+        height: 50px;
+
+        border-style: #a5a5a5, solid;
+        background-color: #fff;
+
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2em;
+    }
+
+    .tilmeld-knap {
+
+        width: 300px;
+        height: 50px;
+
+        border: none;
+        background-color: black;
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .tilmeld-knap[value=Tilmeld] {
+
+        color: #fff;
+    }
+
+    .logologo {
+        font-family: 'Ibarra Real Nova', serif;
+
+        position: absolute;
+        color: white;
+        top: 400px;
+        left: 1px;
+        z-index: 50;
+
+    }
+
+    .elsebeth {
+        height: 100%;
+        width: 90%;
+
+    }
 
 }
+
+
 
 
 /* ---- Priser ---- */
@@ -635,10 +753,11 @@ input[placeholder=Email] {
 
 .h2-pris-oversigt {
     font-family: 'Ibarra Real Nova', serif;
-    font-size: 3em;
+    font-size: 4em;
     text-align: left;
     color: white;
 
+    padding-top: 0.5em;
     padding-bottom: 0.5em;
 
     text-align: center;
@@ -653,6 +772,7 @@ input[placeholder=Email] {
     text-align: left;
     color: white;
 
+    padding-top: 1em;
     padding-bottom: 0.5em;
 
     text-align: left;
@@ -660,20 +780,30 @@ input[placeholder=Email] {
     text-decoration: underline;
 }
 
+.beskrivelse-underspace {
 
+    height: 23em;
+    border-bottom: 0.5px solid;
+
+}
 
 .h5-overskrift {
     font-family: 'Ibarra Real Nova', serif;
     font-size: 2em;
+
     text-align: left;
     color: #fff;
 
-    text-align: left;
-
 }
 
-.underspace {
-    margin-bottom: 3em;
+.h6-overskrift {
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 1.7em;
+    text-align: left;
+    color: #fff;
+
+    ;
+
 }
 
 
@@ -695,6 +825,46 @@ input[placeholder=Email] {
     font-size: 3em;
     text-align: left;
     color: black;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .priser-tekst {
+
+        padding-right: 5em;
+        padding-left: 5em;
+
+
+    }
+
+    .klip-kur {
+        padding-right: 2em;
+        padding-left: 2em;
+
+    }
+
+    .boks-kur {
+        border-left: none;
+        border-top: solid;
+        padding-top: 1em;
+    }
+
+    .pris-kasser {
+        padding-top: 2.5em;
+        padding-bottom: 5em;
+
+        padding-right: 2em;
+        padding-left: 2em;
+        background-color: #a5a5a5;
+
+    }
+
+    .beskrivelse-underspace {
+
+        height: 21em;
+        border-bottom: none;
+
+    }
 }
 
 
@@ -813,6 +983,33 @@ input[placeholder=Email] {
 
 }
 
+@media only screen and (max-width: 600px) {
+
+    .start-produkter {
+
+        padding-right: 5em;
+        padding-left: 5em
+    }
+
+    .tyndt-eller-fint {
+
+        border-left: none;
+        border-top: solid;
+
+        margin-bottom: 1em;
+    }
+
+    .produkter {
+
+        padding-left: 5em;
+        padding-right: 5em;
+    }
+
+
+
+
+}
+
 
 
 /* ---- ---- ---- */
@@ -866,7 +1063,14 @@ input[placeholder=Email] {
     padding-bottom: 2em;
 }
 
+.anmeldelser {
+    padding-right: 10em;
+    padding-left: 10em;
 
+    padding-top: 2em;
+
+
+}
 
 .elfsight-app-1590d30e-b248-4b80-b06f-59d2d0b33fab {
     z-index: 1;
@@ -881,6 +1085,32 @@ input[placeholder=Email] {
 .galleryspace {
     margin-bottom: 3em;
 }
+
+
+@media only screen and (max-width: 600px) {
+
+    .om {
+        padding-right: 5em;
+        padding-left: 5em;
+    }
+
+    .omleft {
+        padding-bottom: 2em;
+    }
+
+    .omright {
+        padding-bottom: 4em;
+    }
+
+    .anmeldelser {
+        padding-left: 5em;
+        padding-right: 5em;
+    }
+
+
+}
+
+
 
 
 
@@ -919,26 +1149,40 @@ input[placeholder=Email] {
 
 }
 
-
-
-
-
-
-
-
-
 .form {
     padding-bottom: 1.5em;
 }
 
+@media only screen and (max-width: 600px) {
+
+    .find-os-section {
+        background-color: #a5a5a5;
+
+        padding-top: 13em;
+
+        padding-right: 5em;
+        padding-left: 5em;
+
+    }
 
 
-.gebyr {
-    padding-top: 3em;
+    .find-h4 {
+
+        font-family: 'Ibarra Real Nova', serif;
+        font-size: 20px;
+        color: #000000;
+
+        padding-top: 1em;
+        margin-bottom: 0.5em;
+    }
 
 
-
+    .send {
+        padding-bottom: 2em;
+    }
 }
+
+
 
 
 
@@ -976,7 +1220,7 @@ input[placeholder=Email] {
     left: 0;
     bottom: 0;
     width: 30px;
-    height: 4px;
+    height: 1px;
     background: #FFCA76;
 }
 
