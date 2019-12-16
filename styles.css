@@ -110,6 +110,11 @@ body {
     .container {
         margin: 0;
     }
+
+    .space {
+        padding-right: 0;
+        padding-left: 0;
+    }
 }
 
 @media screen and (max-width:768px) {
@@ -159,6 +164,8 @@ body {
     .nav div.media_button {
         display: block;
     }
+
+
 }
 
 
@@ -387,7 +394,8 @@ body {
     }
 }
 
-
+/* ---- ------- ---- */
+/* ---- ------- ---- */
 /* ---- Forside ---- */
 
 .home {
@@ -398,6 +406,7 @@ body {
     background-size: cover;
 }
 
+/* ---- Splash tekst  ---- */
 .logologo {
 
     font-family: 'Ibarra Real Nova', serif;
@@ -419,16 +428,16 @@ body {
 
 }
 
+/* ---- Forside h1  ---- */
 .teksth1 {
     font-family: 'Ibarra Real Nova', serif;
     font-size: 5em;
     text-align: center;
     padding-top: 1em;
-
 }
 
 
-
+/* ---- Elsebeth Img  ---- */
 .kvinde {
     text-align: center;
 }
@@ -439,10 +448,11 @@ body {
 
 .elsebeth {
     height: auto;
-    width: 40%;
+    width: 60%;
 
 }
 
+/* ---- Forside hair section  ---- */
 .hair {
     padding-left: 10em;
     padding-right: 10em;
@@ -450,10 +460,75 @@ body {
 
 
 
+
+/* ---- Newsletter Forside  ---- */
+.newsletter {}
+
+
+.nyhed {
+    padding-bottom: 2em;
+}
+
+
+
+
+
+input[placeholder=Navn] {
+    text-align: left;
+}
+
+input[placeholder=Efternavn] {
+    text-align: left;
+}
+
+input[placeholder=Email] {
+    text-align: left;
+}
+
+
+.tilmeld-knap-hvid {
+    width: 250px;
+    height: 50px;
+
+    border-style: #a5a5a5, solid;
+    background-color: #fff;
+
+    margin-left: 3em;
+}
+
+.tilmeld-knap {
+
+    width: 250px;
+    height: 50px;
+
+    border: none;
+    background-color: black;
+
+    margin-left: 3em;
+}
+
+.tilmeld-knap[value=Tilmeld] {
+
+    color: #fff;
+}
+
+.kalender {
+    height: ;
+    width: 100%;
+}
+
+
+@media screen and (min-width: 768px) {
+    .space {}
+
+
+}
+
+
 /* ---- Priser ---- */
 
 
-/* - Splash billed & Tekst - */
+/* - Splash billede & Tekst - */
 .priser {
     width: 100%;
     height: 95vh;
@@ -463,6 +538,8 @@ body {
 
 }
 
+
+/* ---- Splash Tekst Div  ---- */
 .priser-tekst {
 
     padding-top: 13em;
@@ -471,6 +548,7 @@ body {
     padding-left: 12em;
 }
 
+/* ---- Splash Paragraph  ---- */
 .myP-tekst {
     font-family: 'Ibarra Real Nova', serif;
     font-size: 15px;
@@ -484,6 +562,7 @@ body {
 
 }
 
+/* - section klip-kur - */
 .klip-kur {
     padding-top: 5em;
     padding-bottom: 2.5em;
@@ -496,13 +575,19 @@ body {
 }
 
 
+/* - Boks kur - Div - */
 .boks-kur {
     border-left: solid;
     text-decoration-color: black;
 
 }
 
-.teksth2 {}
+.teksth2 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 3em;
+    text-align: left;
+    color: black;
+}
 
 .h4-klip-sort {
     font-family: 'Ibarra Real Nova', serif;
@@ -560,6 +645,7 @@ body {
 
 }
 
+/* - H4 - Køn - */
 .pris-kategorier {
 
     font-family: 'Ibarra Real Nova', serif;
@@ -582,7 +668,15 @@ body {
     text-align: left;
     color: #fff;
 
+    text-align: left;
+
 }
+
+.underspace {
+    margin-bottom: 3em;
+}
+
+
 
 /* paragraph - priser */
 .myPriser {
@@ -591,6 +685,8 @@ body {
     font-size: 15px;
 
     color: white;
+
+    text-align: left;
 }
 
 /* H2 - priser*/
@@ -616,7 +712,7 @@ body {
 }
 
 /* sort-boks */
-.tyk-tynd {
+.tyndt-eller-fint {
 
     border-left: solid;
 
@@ -647,8 +743,6 @@ body {
     color: #000000;
 
 }
-
-
 
 
 .knap-color {
@@ -721,13 +815,8 @@ body {
 
 
 
-
-
-
-
-
-
-
+/* ---- ---- ---- */
+/* ---- ---- ---- */
 /* ---- Om ---- */
 .om {
     background-color: #a5a5a5;
@@ -739,23 +828,33 @@ body {
 
 }
 
+
+/* ---- Venstre div ---- */
 .omleft {
     padding-bottom: 10em;
     margin-right: auto;
 
 }
 
+/* ---- Højre div ---- */
 .omright {
     padding-bottom: 10em;
     margin-left: auto;
 
 }
 
+/* ---- Elsebeth Om Img ---- */
 .om-billede {
     height: auto;
-    width: 100%;
+    width: 90%;
+
+    border-radius: 25px;
+
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
 
+/* ---- Qoute ---- */
 .h3citat {
 
     font-family: 'Ibarra Real Nova', serif;
@@ -769,72 +868,24 @@ body {
 
 
 
-.gallery {
-
-    padding-left: 10em;
-    padding-right: 10em;
+.elfsight-app-1590d30e-b248-4b80-b06f-59d2d0b33fab {
+    z-index: 1;
 }
 
 
-.gallery {
-    -webkit-column-count: 3;
-    -moz-column-count: 3;
-    column-count: 3;
-    -webkit-column-width: 33%;
-    -moz-column-width: 33%;
-    column-width: 33%;
+.bag {
+    z-index: 1;
 }
 
-.gallery .pics {
-    -webkit-transition: all 350ms ease;
-    transition: all 350ms ease;
-}
 
-.gallery .animation {
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-}
-
-@media (max-width: 450px) {
-    .gallery {
-        -webkit-column-count: 1;
-        -moz-column-count: 1;
-        column-count: 1;
-        -webkit-column-width: 100%;
-        -moz-column-width: 100%;
-        column-width: 100%;
-    }
-}
-
-@media (max-width: 400px) {
-    .btn.filter {
-        padding-left: 1.1rem;
-        padding-right: 1.1rem;
-    }
+.galleryspace {
+    margin-bottom: 3em;
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ---- ------- ---- */
+/* ---- ------- ---- */
 /* ---- Find os ---- */
 .find-os-section {
     background-color: #a5a5a5;
@@ -857,6 +908,8 @@ body {
     font-family: 'Ibarra Real Nova', serif;
     font-size: 20px;
     color: #000000;
+
+    margin-bottom: 0.5em;
 }
 
 .find-p {
