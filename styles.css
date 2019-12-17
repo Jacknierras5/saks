@@ -1013,7 +1013,7 @@ input[placeholder=Email] {
 
 .produkt-billeder {
     height: auto;
-    width: 100%;
+    width: 40%;
 }
 
 
@@ -1022,7 +1022,10 @@ input[placeholder=Email] {
 
 }
 
-.window-produkt-billeder {}
+.window-produkt-billeder {
+    height: auto;
+    width: 50%;
+}
 
 .p-window-paragraph {
     font-family: 'Ibarra Real Nova', serif;
