@@ -636,20 +636,7 @@ input[placeholder=Email] {
 
 }
 
-@media only screen and (max-width: 1024px) {
-
-    .logologo {
-        font-family: 'Ibarra Real Nova', serif;
-
-        position: absolute;
-        color: white;
-        top: 600px;
-        left: 500px;
-        z-index: 50;
-
-    }
-
-
+@media only screen and (min-width: 1366px) {
     input[placeholder=Navn] {
         text-align: left;
     }
