@@ -563,7 +563,7 @@ input[placeholder=Email] {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 600px) and (max-width: 1100px) {
     .space {
 
         padding-right: 2em;
@@ -625,6 +625,8 @@ input[placeholder=Email] {
         top: 300px;
         left: 1px;
         z-index: 50;
+        display: none;
+
 
     }
 
@@ -636,7 +638,19 @@ input[placeholder=Email] {
 
 }
 
-@media only screen and (min-width: 1366px) {
+@media only screen and (max-width: 1000px) {
+    .logologo {
+        font-family: 'Ibarra Real Nova', serif;
+
+        position: absolute;
+        color: white;
+        top: 400px;
+        left: 10px;
+        z-index: 50;
+
+
+    }
+
     input[placeholder=Navn] {
         text-align: left;
     }
@@ -680,7 +694,7 @@ input[placeholder=Email] {
     }
 
     .elsebeth {
-        height: 100%;
+        height: auto;
         width: 90%;
 
     }
