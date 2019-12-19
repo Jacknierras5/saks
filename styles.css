@@ -1540,3 +1540,7 @@ input[placeholder=Email] {
 .footer-social-links a:hover {
     background: none;
 }
+
+.white-text {
+    font-size: 1.5em;
+}
