@@ -13,6 +13,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 
     <link rel="stylesheet" href="styles.css">
@@ -51,15 +53,47 @@
 
 
 
-        <section class="om">
+        <section class="om-space-start">
             <div class="row">
 
-
-
-                <div class="col-sm-6 omleft">
-                    <h3 class="h3citat">
+                <div class="col-sm-9">
+                    <h2 class="tekst-h2-citat">
                         “Jeg ønsker at give forbrugere og frisører et sundere alternativ til de mange skadelige skønhedsprodukter, som findes på markedet i dag, og derfor bliver jeg ved med at udvikle nye, sunde hår- og hudpleje produkter.”
-                    </h3>
+                    </h2>
+
+                    <h2 class="tekst-h2-navn">
+                        Elsebeth Cramer Wanstrup
+                    </h2>
+
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="om-space-text">
+            <div class="row">
+
+                <div class="col-sm-9">
+
+                    <img class="elsebeth-om-citat-billede" src="elsebeth-saks-forside.png" alt="">
+
+
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+        <section class="om-space-text">
+            <div class="row">
+
+                <div class="col-sm-9">
 
                     <p class="myP">
                         Saks Cph er en kreativ og uformel salon med et højt fagligt niveau. Her er god tid til dig og dit hår og kun én kunde ad gangen. Der er fokus på dig.
@@ -70,21 +104,19 @@
                         <br><br>
                         Jeg vil altid være professionel i min rådgivning og tage udgangspunkt i dine egne idéer, tanker, ønsker og drømme, men vigtigst af alt vil jeg også kigge på din personlighed og hvor du er i livet. For en professionel rådgivning rummer også at du kan passe og pleje dit hår selv, så når du ikke er hos mig, vil du stadig kunne styre dit hår og føle dig lækker uden mig.
 
-
-                    </p>
                 </div>
-
-                <div class="col-sm-5 omright">
-                    <img class="om-billede" src="om-elsebeth.png" alt="Elsebethcramer">
-                </div>
-
-
-
-
-
 
             </div>
         </section>
+
+
+
+        <!--
+        <div class="col-sm-5 omright">
+            <img class="om-billede" src="om-elsebeth.png" alt="Elsebethcramer">
+        </div>
+
+-->
 
 
         <section class="anmeldelser bag">
@@ -104,31 +136,31 @@
 
                 <div class="col-sm-4 galleryspace">
 
-                    <img class="gallery-img" src="gallery1.png" alt="blond">
+                    <img data-aos="fade-up" data-aos-duration="2000" class="gallery-img" src="gallery1.png" alt="blond">
 
                 </div>
 
                 <div class="col-sm-4 galleryspace">
-                    <img class="gallery-img" src="gallery2.png" alt="mandcurls">
+                    <img data-aos="fade-up" data-aos-duration="2000" class="gallery-img" src="gallery2.png" alt="mandcurls">
                 </div>
 
                 <div class="col-sm-4 galleryspace">
-                    <img class="gallery-img" src="gallery3.png" alt="sortoghvid-kvinde">
+                    <img data-aos="fade-up" data-aos-duration="2000" class="gallery-img" src="gallery3.png" alt="sortoghvid-kvinde">
                 </div>
 
 
 
 
                 <div class="col-sm-4 galleryspace">
-                    <img class="gallery-img" src="gallery4.png" alt="sortoghvid">
+                    <img data-aos="fade-up" data-aos-duration="2000" class="gallery-img" src="gallery4.png" alt="sortoghvid">
                 </div>
 
                 <div class="col-sm-4 galleryspace">
-                    <img class="gallery-img" src="gallery5.png" alt="pinkhaar">
+                    <img data-aos="fade-up" data-aos-duration="2000" class="gallery-img" src="gallery5.png" alt="pinkhaar">
                 </div>
 
                 <div class="col-sm-4 galleryspace">
-                    <img class="gallery-img" src="gallery6.png" alt="asian-haar">
+                    <img data-aos="fade-up" data-aos-duration="2000" class="gallery-img" src="gallery6.png" alt="asian-haar">
                 </div>
 
 
@@ -215,6 +247,9 @@
 
 </body>
 
+<script>
+    AOS.init();
+</script>
 
 <!-- Jquery needed -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>

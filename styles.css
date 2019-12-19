@@ -51,7 +51,7 @@ body {
 
 .nav div.logo a {
     text-decoration: none;
-    color: #fff;
+    color: #000000;
     font-size: 2.5rem;
 }
 
@@ -82,7 +82,7 @@ body {
 
 .nav div.main_list ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #000000;
     line-height: 65px;
     font-size: 2.4rem;
 }
@@ -141,7 +141,7 @@ body {
         right: 0;
         left: 0;
         bottom: 0;
-        background-color: #111;
+        background-color: #a5a5a5;
         /*same background color of navbar*/
         background-position: center top;
     }
@@ -181,7 +181,7 @@ body {
 }
 
 .navTrigger i {
-    background-color: #fff;
+    background-color: black;
     border-radius: 2px;
     content: '';
     display: block;
@@ -380,7 +380,7 @@ body {
 
 .affix {
     padding: 0;
-    background-color: #000000;
+    background-color: #c3c0c0;
 }
 
 
@@ -420,18 +420,35 @@ body {
     padding-left: 10em;
     padding-right: 10em;
 
-    padding-top: 5em;
-    padding-bottom: 5em;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
 
+.space-text {
+    padding-top: 2em;
+    padding-bottom: 2em;
+
+    padding-left: 30em;
+
+    text-align: justify;
+}
+
+.space-nyhed {
+    padding-left: 10em;
+    padding-right: 10em;
 
 }
 
-/* ---- Forside h1  ---- */
+.produkt-billeder-forside {
+    height: auto;
+    width: 30%;
+}
+
 .teksth1 {
     font-family: 'Ibarra Real Nova', serif;
-    font-size: 5em;
+    font-size: 4em;
     text-align: center;
-    padding-top: 1em;
+    padding-top: 0.5em;
 }
 
 .h2-splash-citat {
@@ -439,6 +456,11 @@ body {
     font-size: 3em;
 
     text-align: center;
+}
+
+.front-gallery {
+    height: auto;
+    width: 100%;
 }
 
 
@@ -488,7 +510,7 @@ body {
 }
 
 .grey {
-    background-color: #a5a5a5;
+    background-color: #aaaaaa;
 }
 
 .elsebeth {
@@ -507,16 +529,6 @@ body {
 
 
 /* ---- Newsletter Forside  ---- */
-.newsletter {}
-
-
-.nyhed {
-    padding-bottom: 2em;
-}
-
-
-
-
 
 input[placeholder=Navn] {
     text-align: left;
@@ -532,7 +544,7 @@ input[placeholder=Email] {
 
 
 .tilmeld-knap-hvid {
-    width: 250px;
+    width: 295px;
     height: 50px;
 
     border-style: #a5a5a5, solid;
@@ -563,7 +575,13 @@ input[placeholder=Email] {
 }
 
 
-@media only screen and (min-width: 600px) and (max-width: 1100px) {
+@media only screen and (max-width: 600px) {
+
+    .space-text {
+        padding-right: 2em;
+        padding-left: 2em;
+    }
+
     .space {
 
         padding-right: 2em;
@@ -625,8 +643,14 @@ input[placeholder=Email] {
         top: 300px;
         left: 1px;
         z-index: 50;
-        display: none;
+    }
 
+
+
+    .produkt-billeder-forside {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
 
     }
 
@@ -638,16 +662,21 @@ input[placeholder=Email] {
 
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (min-width: 800px) and (max-width: 1200px) {
     .logologo {
         font-family: 'Ibarra Real Nova', serif;
 
         position: absolute;
         color: white;
-        top: 400px;
+        top: 300px;
         left: 10px;
         z-index: 50;
 
+        display: none;
+    }
+
+    .space-text {
+        padding-right: 20em;
 
     }
 
@@ -737,30 +766,12 @@ input[placeholder=Email] {
     color: #fff;
 }
 
-/* - En god klip & Kur - */
-
-.god-klip {
-    margin-right: auto;
-
-}
-
 /* - section klip-kur - */
-.klip-kur {
-    padding-top: 5em;
-    padding-bottom: 2.5em;
-
-    padding-right: 10em;
-    padding-left: 10em;
-    background-color: #a5a5a5;
-
-    margin-left: auto;
-}
+.klip-kur {}
 
 
 /* - Boks kur - Div - */
-.boks-kur {
-    border-left: solid;
-    text-decoration-color: black;
+
 
 }
 
@@ -771,47 +782,30 @@ input[placeholder=Email] {
     color: black;
 }
 
-.h4-klip-sort {
-    font-family: 'Ibarra Real Nova', serif;
-    font-size: 20px;
-    color: #000000;
+.h4-klip-sort {}
 
-    padding-bottom: 1em;
-}
+.myPriser-sort {}
 
-.myPriser-sort {
-    font-family: 'Ibarra Real Nova', serif;
-    font-size: 15px;
-    color: #000000;
-
-}
-
-.h4-klip {
-    font-family: 'Ibarra Real Nova', serif;
-    font-size: 20px;
-    color: #fff;
-    padding-bottom: 0.5em;
-
-}
+.h4-klip {}
 
 /* --- priskasse --- */
 
-/*  ---> section */
+/*  --- section */
 .pris-kasser {
-    padding-top: 2.5em;
-    padding-bottom: 5em;
 
     padding-right: 10em;
     padding-left: 10em;
-    background-color: #a5a5a5;
+    background-color: #fff;
 
 }
 
 .prisliste {
-    background-color: rgba(0, 0, 0, 0.57);
+    background-color: #fff;
 
     margin-right: auto;
     margin-left: auto;
+
+    border-bottom: solid;
 
 }
 
@@ -819,34 +813,42 @@ input[placeholder=Email] {
     font-family: 'Ibarra Real Nova', serif;
     font-size: 4em;
     text-align: left;
-    color: white;
-
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-
+    color: #000000;
     text-align: center;
 
 }
 
-/* - H4 - Køn - */
-.pris-kategorier {
-
+.tekst-h2 {
     font-family: 'Ibarra Real Nova', serif;
     font-size: 3em;
-    text-align: left;
-    color: white;
+    text-align: center;
+    padding-top: 1em;
+
+}
+
+.tekst-h3 {
+
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 2.7em;
+
+    color: #000000;
 
     padding-top: 1em;
-    padding-bottom: 0.5em;
+    padding-bottom: 2em;
 
-    text-align: left;
+    text-align: center;
+}
 
-    text-decoration: underline;
+
+/* - H4 - Køn - */
+.pris-kategorier {
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 2.7em;
 }
 
 .beskrivelse-underspace {
 
-    height: 23em;
+
     border-bottom: 0.5px solid;
 
 }
@@ -856,15 +858,15 @@ input[placeholder=Email] {
     font-size: 2em;
 
     text-align: left;
-    color: #fff;
+    color: #000000;
 
 }
 
 .h6-overskrift {
     font-family: 'Ibarra Real Nova', serif;
-    font-size: 1.7em;
+    font-size: 1.6em;
     text-align: left;
-    color: #fff;
+    color: #000000;
 
     ;
 
@@ -893,6 +895,11 @@ input[placeholder=Email] {
 
 @media only screen and (max-width: 600px) {
 
+    .start-produkter {
+        padding-left: 2em;
+        padding-right:
+    }
+
     .priser-tekst {
 
         padding-right: 5em;
@@ -901,82 +908,125 @@ input[placeholder=Email] {
 
     }
 
-    .klip-kur {
-        padding-right: 2em;
-        padding-left: 2em;
-
-    }
-
-    .boks-kur {
-        border-left: none;
-        border-top: solid;
-        padding-top: 1em;
-    }
 
     .pris-kasser {
-        padding-top: 2.5em;
-        padding-bottom: 5em;
 
         padding-right: 2em;
         padding-left: 2em;
-        background-color: #a5a5a5;
 
+        background-color: #ffffff;
+
+    }
+
+
+    .tekst-h3 {
+        font-family: 'Ibarra Real Nova', serif;
+        font-size: 2.7em;
+
+        color: #000000;
+
+        padding-top: 1em;
+        padding-bottom: 0.5em;
+
+        text-align: center;
+
+        border-bottom: solid;
     }
 
     .beskrivelse-underspace {
-
-        height: 21em;
         border-bottom: none;
-
     }
+
+}
+
+/* ---- --------- ---- */
+/* ---- --------- ---- */
+/* ---- Produkter ---- */
+
+
+/* ---- Start1 ---- */
+.start-produkter {
+
+    padding-top: 13em;
+    padding-bottom: 1em;
+
+    padding-left: 30em;
+
+    background-color: #fff;
+}
+
+/* ---- Start 2 tekst ---- */
+.start-produkter-2 {
+
+    padding-left: 30em;
+}
+
+/* ---- Start svane section ---- */
+.start-produkter-2-svane {
+    padding-top: 2em;
+    padding-bottom: 21em;
+
+    padding-left: 30em;
+
+}
+
+/* ---- Svane billedet ---- */
+.svane {
+    height: auto;
+    width: 20%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
-/* ---- Produkter ---- */
+.produkt-katalog {
+    padding-top: 10em;
 
-.start-produkter {
-
-    background-color: #a5a5a5;
-
-    padding-top: 13em;
 
     padding-right: 10em;
     padding-left: 10em;
+    background-color: #fff;
 
 }
 
-/* sort-boks */
-.tyndt-eller-fint {
+.produkt-list {
+    background-color: #fff;
 
-    border-left: solid;
+    margin-right: auto;
+    margin-left: auto;
 
-    margin-bottom: 5em;
+    border-bottom: solid
 }
 
-.myP-Tyk {
+.start-produkter-3 {
+
+    padding-left: 30em;
+}
+
+
+.tekst-h2-produkter {
     font-family: 'Ibarra Real Nova', serif;
-    font-size: 15px;
-    color: #000000;
+    font-size: 2.5em;
+
+    text-align: center;
+    padding-top: em;
+
 
 }
+
 
 /* section */
 .produkter {
+    padding-top: 13em;
 
-    padding-top: 5em;
+    padding-right: 30em;
+    padding-left: 30em;
 
-    padding-right: 10em;
-    padding-left: 10em;
-
-}
-
-/* paragraph - produkter */
-.myP-produkter {
-    font-family: 'Ibarra Real Nova', serif;
-    font-size: 15px;
-    color: #000000;
 
 }
+
 
 
 .knap-color {
@@ -1015,6 +1065,10 @@ input[placeholder=Email] {
 .produkt-billeder {
     height: auto;
     width: 40%;
+
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 
@@ -1051,11 +1105,14 @@ input[placeholder=Email] {
 }
 
 @media only screen and (max-width: 600px) {
-
     .start-produkter {
+        padding-top: 10em;
+        padding-bottom: 0em;
 
-        padding-right: 5em;
-        padding-left: 5em
+        padding-left: 2em;
+        padding-right: 2em;
+
+        background-color: #fff;
     }
 
     .tyndt-eller-fint {
@@ -1072,9 +1129,6 @@ input[placeholder=Email] {
         padding-right: 5em;
     }
 
-
-
-
 }
 
 
@@ -1082,23 +1136,111 @@ input[placeholder=Email] {
 /* ---- ---- ---- */
 /* ---- ---- ---- */
 /* ---- Om ---- */
-.om {
-    background-color: #a5a5a5;
+.om-space-start {
+    background-color: #fff;
 
     padding-top: 13em;
+    padding-left: 30em;
+}
 
-    padding-right: 10em;
-    padding-left: 10em;
+.tekst-h2-citat {
+    text-align: center;
+    font-style: italic;
+}
 
+.tekst-h2-navn {
+    text-align: center;
 }
 
 
-/* ---- Venstre div ---- */
-.omleft {
-    padding-bottom: 10em;
+
+.tekst-h2-citat,
+.tekst-h2-navn,
+.elsebeth-om-citat-billede,
+.om-space-text {
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+    -moz-animation: fadeIn ease 5s;
+    -o-animation: fadeIn ease 5s;
+    -ms-animation: fadeIn ease 5s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+.om-space-text {
+    padding-top: 3em;
+    padding-bottom: 2em;
+
+    padding-left: 30em;
+
+    text-align: justify;
+}
+
+
+.elsebeth-om-citat-billede {
+
+    height: auto;
+    width: 40%;
+
+    display: block;
+    margin-left: auto;
     margin-right: auto;
 
+    border-radius: 500px;
+
+    padding-bottom: 2em;
 }
+
 
 /* ---- Højre div ---- */
 .omright {
@@ -1111,8 +1253,6 @@ input[placeholder=Email] {
 .om-billede {
     height: auto;
     width: 90%;
-
-    border-radius: 25px;
 
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
@@ -1161,18 +1301,26 @@ input[placeholder=Email] {
 
 @media only screen and (max-width: 600px) {
 
-    .om {
-        padding-right: 5em;
-        padding-left: 5em;
+    .om-space-start {
+        background-color: #fff;
+
+        padding-top: 10em;
+
+        padding-left: 2em;
+        padding-left: 2em;
     }
 
-    .omleft {
+    .om-space-text {
+        padding-top: 2em;
         padding-bottom: 2em;
+
+        padding-left: 2em;
+        padding-right: 2em;
+
+        text-align: justify;
     }
 
-    .omright {
-        padding-bottom: 4em;
-    }
+
 
     .anmeldelser {
         padding-left: 5em;
@@ -1199,20 +1347,15 @@ input[placeholder=Email] {
 /* ---- ------- ---- */
 /* ---- Find os ---- */
 .find-os-section {
-    background-color: #a5a5a5;
+    background-color: #fff;
 
     padding-top: 13em;
 
     padding-right: 10em;
     padding-left: 10em;
 
-
 }
 
-.find-lift {
-    padding-bottom: 10em;
-    margin-right: auto;
-}
 
 .find-h4 {
 
